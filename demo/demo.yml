@@ -1,7 +1,7 @@
 ---
 version: 2
 plan:
-  project-key: KEYVALUESS
+  project-key: DEMO
   key: KEYVALUE
   name: Build
 stages:
