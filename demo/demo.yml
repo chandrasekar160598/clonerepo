@@ -1,7 +1,7 @@
 ---
 version: 2
 plan:
-  project-key: NEWONE
+  project-key: KEYVALUES
   key: KEYVALUE
   name: Build
 stages:
