@@ -1,0 +1,14 @@
+---
+version: 2
+plan:
+  project-key: NEWONE
+  key: KEYVALUE
+  name: Build
+stages:
+  - Build hull:
+    - Build
+
+Build:
+  tasks:
+    - clone:
+      - https://github.com/chandrasekar160598/mavenprojectwar.git
