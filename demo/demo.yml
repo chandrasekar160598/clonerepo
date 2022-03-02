@@ -1,14 +1,14 @@
 ---
 version: 2
 plan:
-  project-key: DEMO
-  key: KEYVALUE
-  name: Build
+  project-key: MARS
+  key: ROCKET
+  name: Build the rocket
 stages:
   - Build hull:
     - Build
 
 Build:
   tasks:
-    - clone:
-      - https://github.com/chandrasekar160598/mavenprojectwar.git
+    - script:
+      - echo 'welcome file list!'
